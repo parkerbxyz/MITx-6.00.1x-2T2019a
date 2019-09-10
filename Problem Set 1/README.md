@@ -55,4 +55,4 @@ Longest substring in alphabetical order is: abc
 
 ---
 
-**My solution:** [problem_3.py](problem_2.py)
+**My solution:** [problem_3.py](problem_3.py)
