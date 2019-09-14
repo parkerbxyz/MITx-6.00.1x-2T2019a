@@ -10,21 +10,21 @@ Say you've made a $5,000 purchase on a credit card with an 18% annual interest r
 
 You can think about this in the following way.
 
-At the beginning of month 0 (when the credit card statement arrives), assume you owe an amount we will call  ![equation](https://latex.codecogs.com/svg.latex?\inline&space;b_0)  (*b* for *balance*; subscript *0* to indicate this is the balance at month 0).
+At the beginning of month 0 (when the credit card statement arrives), assume you owe an amount we will call ![$b_0$](https://render.githubusercontent.com/render/math?math=b_0&mode=inline) (*b* for *balance*; subscript *0* to indicate this is the balance at month 0).
 
-Any payment you make during that month is deducted from the balance. Let's call the payment you make in month 0,  ![equation](https://latex.codecogs.com/svg.latex?\inline&space;p_0) . Thus, your **unpaid balance** for month 0, ![equation](https://latex.codecogs.com/svg.latex?\inline&space;ub_0) , is equal to ![equation](https://latex.codecogs.com/svg.latex?\inline&space;b_0&space;-&space;p_0) .
+Any payment you make during that month is deducted from the balance. Let's call the payment you make in month 0, ![$p_0$](https://render.githubusercontent.com/render/math?math=p_0&mode=inline). Thus, your **unpaid balance** for month 0, ![$ub_0$](https://render.githubusercontent.com/render/math?math=ub_0&mode=inline), is equal to ![$b_0 - p_0$](https://render.githubusercontent.com/render/math?math=b_0-p_0&mode=inline).
 
-![equation](https://latex.codecogs.com/svg.latex?\inline&space;ub_0&space;=&space;b_0&space;-&space;p_0)
+![$$ub_0 = b_0 - p_0$$](https://render.githubusercontent.com/render/math?math=ub_0=b_0-p_0&mode=display)
 
-At the beginning of month 1, the credit card company will charge you interest on your unpaid balance. So if your annual interest rate is  𝑟 , then at the beginning of month 1, your new balance is your previous unpaid balance ![equation](https://latex.codecogs.com/svg.latex?\inline&space;ub_0) , plus the interest on this unpaid balance for the month. In algebra, this new balance would be
+At the beginning of month 1, the credit card company will charge you interest on your unpaid balance. So if your annual interest rate is  ![$r$](https://render.githubusercontent.com/render/math?math=r&mode=inline), then at the beginning of month 1, your new balance is your previous unpaid balance ![$ub_0$](https://render.githubusercontent.com/render/math?math=ub_0&mode=inline), **plus** the interest on this unpaid balance for the month. In algebra, this new balance would be
 
-![equation](https://latex.codecogs.com/svg.latex?b_1&space;=&space;ub_0&space;&plus;&space;\frac{r}{12.0}\cdot&space;ub_0)
+![$$b_1 = ub_0 + \frac{r}{12.0}\cdot ub_0$$](https://render.githubusercontent.com/render/math?math=b_1%20%3D%20ub_0%20%2B%20%5Cfrac%7Br%7D%7B12.0%7D%5Ccdot%20ub_0&mode=display)
 
-In month 1, we will make another payment, ![equation](https://latex.codecogs.com/svg.latex?\inline&space;p_1) . That payment has to cover some of the interest costs, so it does not completely go towards paying off the original charge. The balance at the beginning of month 2, ![equation](https://latex.codecogs.com/svg.latex?\inline&space;b_2) , can be calculated by first calculating the unpaid balance after paying ![equation](https://latex.codecogs.com/svg.latex?\inline&space;p_1) , then by adding the interest accrued:
+In month 1, we will make another payment, ![$p_1$](https://render.githubusercontent.com/render/math?math=p_1&mode=inline). That payment has to cover some of the interest costs, so it does not completely go towards paying off the original charge. The balance at the beginning of month 2, ![$b_2$](https://render.githubusercontent.com/render/math?math=b_2&mode=inline), can be calculated by first calculating the unpaid balance after paying ![$p_1$](https://render.githubusercontent.com/render/math?math=p_1&mode=inline), then by adding the interest accrued:
 
-![equation](https://latex.codecogs.com/svg.latex?ub_1&space;=&space;b_1&space;-&space;p_1)
+![$$ub_1 = b_1 - p_1$$](https://render.githubusercontent.com/render/math?math=ub_1=b_1-p_1&mode=display)
 
-![equation](https://latex.codecogs.com/svg.latex?b_2&space;=&space;ub_1&space;&plus;&space;\frac{r}{12.0}&space;\cdot&space;ub_1)
+![$$b_2 = ub_1 + \frac{r}{12.0} \cdot ub_1$$](https://render.githubusercontent.com/render/math?math=ub_1%20%3D%20b_1%20-%20p_1%24%24%24%24b_2%20%3D%20ub_1%20%2B%20%5Cfrac%7Br%7D%7B12.0%7D%20%5Ccdot%20ub_1&mode=display)
 
 If you choose just to pay off the minimum monthly payment each month, you will see that the compound interest will dramatically reduce your ability to lower your debt.
 
@@ -129,7 +129,8 @@ Write a program that uses these bounds and bisection search (for more info check
 
 Note that if you do not use bisection search, your code will not run - your code only has 30 seconds to run on our servers.
 
-*Note: This problem may be challenging. We encourage you to work smart. If you've spent more than a few hours on this problem, we suggest that you move on to a different part of the course. If you have time, come back to this problem after you've had a break and cleared your head.*
+**Note:**
+Depending on where, and how frequently, you round during this function, your answers may be off a few cents in either direction. Try rounding as few times as possible in order to increase the accuracy of your result.
 
 ---
 
