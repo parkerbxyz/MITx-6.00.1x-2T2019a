@@ -66,7 +66,7 @@ def square(x):
 
 ## Exercise: eval quadratic
 
-Write a Python function, `evalQuadratic(a, b, c, x)`, that returns the value of the quadratic  𝑎⋅𝑥2+𝑏⋅𝑥+𝑐 .
+Write a Python function, `evalQuadratic(a, b, c, x)`, that returns the value of the quadratic ![$a\cdot x^2 + b\cdot x + c$](https://render.githubusercontent.com/render/math?math=a%5Ccdot%20x%5E2%20%2B%20b%5Ccdot%20x%20%2B%20c&mode=inline).
 
 This function takes in four numbers and returns a single number.
 
