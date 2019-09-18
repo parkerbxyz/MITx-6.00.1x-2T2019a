@@ -38,6 +38,8 @@ Let's look at an example. If you've got a $5,000 balance on a credit card with 1
 
 You can see that a lot of your payment is going to cover interest, and if you work this through month 12, you will see that after a year, you will have paid $1165.63 and yet you will still owe $4691.11 on what was originally a $5000.00 debt. Pretty depressing!
 
+---
+
 ## Problem 1 - Paying Debt off in a Year
 
 Write a program to calculate the credit card balance after one year if a person only pays the minimum monthly payment required by the credit card company each month.
