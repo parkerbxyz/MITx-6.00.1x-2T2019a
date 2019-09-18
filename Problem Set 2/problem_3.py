@@ -1,4 +1,5 @@
-def remaining_balance(balance: float, annual_interest_rate: float,
+def remaining_balance(balance: float,
+                      annual_interest_rate: float,
                       monthly_payment: float) -> float:
     """Return the remaining balance after 12 months of monthly payments."""
     monthly_interest_rate = annual_interest_rate / 12.0
