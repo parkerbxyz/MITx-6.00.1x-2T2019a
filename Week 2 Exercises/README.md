@@ -261,3 +261,18 @@ def isIn(char, aStr):
 ---
 
 **My solution:** [is_in.py](is_in.py)
+
+## Complete Programming Experience: polysum
+
+A regular polygon has `n` number of sides. Each side has length `s`.
+
+- The area of a regular polygon is: ![$\frac{0.25*n*s^2}{tan(\pi/n)}$](https://render.githubusercontent.com/render/math?math=%5Cfrac%7B0.25%2An%2As%5E2%7D%7Btan%28%5Cpi%2Fn%29%7D&mode=inline)
+- The perimeter of a polygon is: length of the boundary of the polygon
+
+Write a function called `polysum` that takes 2 arguments, `n` and `s`. This function should sum the area and square of the perimeter of the regular polygon. The function returns the sum, rounded to 4 decimal places.
+
+This is an optional exercise, but great for extra practice!
+
+---
+
+**My solution:** [polysum.py](polysum.py)
